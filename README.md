@@ -28,9 +28,10 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 
 ## How pipeline will look after deployment:
 - <b>CI pipeline to build and push</b>
-![image](Contineous Integration.png)
+![image](Image.png)
 
-![image](Contineous Integration2.png)
+![image](Image1.png)
+
 
 - <b>ArgoCD application for deployment on EKS</b>
 ![image](https://github.com/user-attachments/assets/1ea9d486-656e-40f1-804d-2651efb54cf6)
