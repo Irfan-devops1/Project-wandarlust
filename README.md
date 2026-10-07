@@ -28,9 +28,9 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 
 ### How pipeline will look after deployment:
 - <b>CI pipeline to build and push</b>
-![image](1.png)
+![image](Contineous Integration.png)
 
-![image](2.png)
+![image](Contineous Integration2.png)
 
 - <b>CD pipeline to update application version</b>
 ![image](https://github.com/user-attachments/assets/8fd13807-622e-45f7-af23-dcc1ba30ca5d)
@@ -65,14 +65,25 @@ sudo su
 > This project will be implemented on North California region (us-west-1).
 
 - <b>Create 1 Master machine on AWS with 2CPU, 8GB of RAM (t2.large) and 29 GB of storage and install Docker on it.</b>
-#
-- <b>Open the below ports in security group of master machine and also attach same security group to Jenkins worker node (We will create worker node shortly)</b>
-![image](https://github.com/user-attachments/assets/4e5ecd37-fe2e-4e4b-a6ba-14c7b62715a3)
 
 > [!Note]
 > We are creating this master machine because we will configure Jenkins master, eksctl, EKS cluster creation from here.
 
 Install & Configure Docker by using below command, "NewGrp docker" will refresh the group config hence no need to restart the EC2 machine.
+
+
+# Install Jenkins
+# SonarQube
+# Trivy
+
+#  Trivy Installation
+
+![image](Trivy.png)
+
+# SonarQube Installation Done
+
+![image](Sonarqube.png)
+
 
 ```bash
 apt-get update
